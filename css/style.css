@@ -1,0 +1,87 @@
+/* General page styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+#logo {
+  color: white;
+}
+
+.jumbotron {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background: steelblue;
+    color: white;
+    overflow: hidden;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.header-text {
+      color: #A3E4D7;
+}
+
+.selfie {
+  display: block;
+  margin: 20px auto;
+  margin-bottom: 25px;
+  width: 180px;
+}
+
+hr {
+  width: 150px;
+  margin: 10px auto 40px auto;
+  border-top: 3px solid steelblue;
+}
+
+#hr_header {
+  width: 150px;
+  margin: 20px auto 20px auto;
+  border-top: 3px solid white;
+}
+
+.lead {
+  margin: 30px auto;
+  text-align: center
+}
+
+.skills_logo {
+  display: block;
+  margin: 30px auto;
+  margin-bottom: 25px;
+  width: 300px;
+}
+
+#portfolio {
+  margin: 30px 30px;
+}
+
+#skills, #contact {
+  background: #E3E4E5;
+  padding: 50px;
+  text-align: center;
+}
+
+.contact-icons {
+  padding: 10px;
+}
+
+#footer {
+  text-align: center;
+  background: steelblue;
+  color: white;
+  padding: 20px
+}
+
+
+
+
+
+
+
