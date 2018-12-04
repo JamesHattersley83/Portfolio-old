@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Personal Porfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesHattersley83/jameshattersley83.github.io.git"
+  },
+  "author": "James Hattersley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesHattersley83/jameshattersley83.github.io/issues"
+  },
+  "homepage": "https://github.com/JamesHattersley83/jameshattersley83.github.io#readme",
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "eslint": "^5.9.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  }
+}
