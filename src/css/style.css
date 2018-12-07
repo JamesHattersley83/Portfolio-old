@@ -1,0 +1,74 @@
+/* General page styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none; }
+
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+#logo {
+  color: white; }
+
+.jumbotron {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  opacity: 0.8;
+  /* background: url('../img/img-background.jpg'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+  overflow: hidden;
+  padding-top: 200px;
+  padding-bottom: 20%; }
+
+.header-text {
+  color: #A3E4D7; }
+
+.selfie {
+  display: block;
+  margin: 20px auto;
+  margin-bottom: 25px;
+  width: 180px; }
+
+hr {
+  width: 150px;
+  margin: 10px auto 40px auto;
+  border-top: 3px solid steelblue; }
+
+#hr_header {
+  width: 150px;
+  margin: 20px auto 20px auto;
+  border-top: 3px solid #000; }
+
+.lead {
+  margin: 30px auto;
+  text-align: center; }
+
+.orange {
+  colour: orange; }
+
+#portfolio {
+  margin: 30px 30px; }
+
+.portfolio-img {
+  min-height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+#skills, #contact {
+  background: #E3E4E5;
+  padding: 50px;
+  text-align: center; }
+
+.contact-icons {
+  padding: 10px; }
+
+#footer {
+  text-align: center;
+  background: steelblue;
+  color: white;
+  padding: 20px; }
