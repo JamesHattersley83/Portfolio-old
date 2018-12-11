@@ -11,23 +11,28 @@ body {
 #logo {
   color: white; }
 
+li {
+  color: #fff; }
+
 .jumbotron {
   position: relative;
   width: 100%;
   height: 100%;
   background-size: cover;
   opacity: 0.8;
-  /* background: url('../img/img-background.jpg'); */
+  background: url("../img/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #000;
+  color: #fff;
   overflow: hidden;
   padding-top: 200px;
   padding-bottom: 20%; }
+  .jumbotron h1 {
+    font-size: 3em; }
 
 .header-text {
-  color: #A3E4D7; }
+  color: #fff; }
 
 .selfie {
   display: block;
@@ -41,16 +46,13 @@ hr {
   border-top: 3px solid steelblue; }
 
 #hr_header {
-  width: 150px;
+  width: 30%;
   margin: 20px auto 20px auto;
-  border-top: 3px solid #000; }
+  border-top: 3px solid #fff; }
 
 .lead {
   margin: 30px auto;
   text-align: center; }
-
-.orange {
-  colour: orange; }
 
 #portfolio {
   margin: 30px 30px; }
@@ -59,8 +61,9 @@ hr {
   min-height: 200px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
-#skills, #contact {
-  background: #E3E4E5;
+#skills,
+#contact {
+  background: #e3e4e5;
   padding: 50px;
   text-align: center; }
 
