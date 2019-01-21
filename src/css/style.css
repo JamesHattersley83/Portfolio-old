@@ -29,7 +29,7 @@ li {
   padding-top: 20%;
   padding-bottom: 20%; }
   .jumbotron h1 {
-    font-size: 4rem; }
+    font-size: 3.5rem; }
 
 .header-text {
   color: #fff; }
@@ -98,3 +98,16 @@ hr {
   background: steelblue;
   color: white;
   padding: 20px; }
+
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s; }
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
